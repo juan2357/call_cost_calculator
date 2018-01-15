@@ -8,15 +8,3 @@ formula: call_tax = net_cost * tax_rate / 100 (drop /100 if you converted the
 rate from a percentage)
 4). The total cost of a call (rounded to the nearest hundredth) is calculated by the following formula: total_cost = net_cost + call_tax . All tax and
 cost calculations should be rounded to the nearest hundredths. Use the following format information to print the variables:
-Field Format ======================================
-Cell Phone
-Number of Relay Stations Minutes Used
-Net Cost
-Call Tax
-Total Cost of Call
-Handing in your program
-XXXXXXXXX
-XXXXXX
-XXXXXX
-XXXXXXX.XX XXXXX.XX
-XXXXXXX.XX

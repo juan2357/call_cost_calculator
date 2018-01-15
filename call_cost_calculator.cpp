@@ -1,11 +1,13 @@
-/****SAMPLE PROGRAM HEADER*******************************************************
-Lofton Bullard	        Total Points:  100
-Due Date:  2/4/2013
+/***********************************************************
+Juan Perez        Total Points:  10
+Due Date:  Jan 23, 2018
 Course:  C0P3014
-Assignment:  Assignment 1
+Assignment:  Program 1
 Professor: Dr. Lofton Bullard
 
-Description: (Your program description goes here -- what is does--In the program we processed....
+Description: This is a program that calculates the net cost of a call (net_cost),
+              the tax on a call (call_tax)
+              and the total cost of the call (total_cost).
 
 
 *************************************************************/
@@ -21,16 +23,11 @@ int main()
 	while (user_response == "y" || user_response == "Y")
 	{
                        //The code to get the user's input, perform the calculations, and print
-                       // the results to the screen should go here.  
-           
+                       // the results to the screen should go here.
+
 	    cout<<"Would you like to do another calculation (Y or N): "<<endl;
 	    cin>>user_response;
 	}
 
 	return  0;
 }
-
-
-
-
-
