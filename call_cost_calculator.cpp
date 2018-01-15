@@ -18,7 +18,15 @@ using namespace std;
 
 int main()
 {
-	 string user_response = "y";
+	string user_response = "y";
+  double net_cost,
+         call_tax,
+         total_cost;
+  int relays,
+      call_length,
+      cell_num;
+
+
 
 	while (user_response == "y" || user_response == "Y")
 	{
