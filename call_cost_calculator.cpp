@@ -25,8 +25,8 @@ int main()
          total_cost,
          tax_rate;
   int relays,
-      call_length,
-      cell_num;
+      call_length;
+  string cell_num = "";
 
 	while (user_response == "y" || user_response == "Y")
 	{
